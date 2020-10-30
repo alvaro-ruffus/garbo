@@ -40,16 +40,16 @@
                             <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
                                 <div class="bar__module">
                                     <ul class="menu-horizontal text-left">
-                                        <li> <a href="#">Inicio&nbsp; &nbsp;</a> </li>
+                                        <li> <a href="#" class="inner-link" target="_self">inicio&nbsp;&nbsp;</a> </li>
                                         <li> <a href="#titulo-cine" class="inner-link" target="_self">Cine&nbsp; &nbsp;</a> </li>
-                                        <li> <a href="#teatro" class="inner-link" target="_self">teatro&nbsp;&nbsp;</a> </li>
+                                        <li> <a href="#titulo-proximo" class="inner-link" target="_self">teatro&nbsp;&nbsp;</a> </li>
                                         <li class="dropdown"> <span class="dropdown__trigger">fotografía&nbsp;</span>
                                             <div class="dropdown__container">
                                                 <div class="container">
                                                     <div class="row">
                                                         <div class="dropdown__content col-lg-3">
                                                             <ul class="menu-vertical">
-                                                                <li> <a href="#">Carlos Bosch Barcelona</a> </li>
+                                                                <li> <a href="#bosch" class="inner-link" target="_self">Carlos Bosch Barcelona&nbsp;&nbsp;</a> </li>
                                                                 <li> <a href="#">Adriana Lestido Madrid</a> </li>
                                                                 <li> <a href="#">Alexis Perez Luna Libro</a> </li>
                                                             </ul>
@@ -67,7 +67,7 @@
                                                                 <li> <a href="#">Tracción a SANGRRE</a> </li>
                                                                 <li> <a href="#">Fotoperiodismo y transición</a> </li>
                                                                 <li> <a href="#">El mal de la Piedra</a> </li>
-                                                                <li> <a href="#">Indistantes</a> </li>
+                                                                <li> <a href="#indistantes" class="inner-link" target="_self">Indistantes&nbsp;&nbsp;</a> </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -76,10 +76,10 @@
                                         </li>
                                         <li> <a href="#">Musica&nbsp;&nbsp;</a> </li>
                                         <li> <a href="#">Muestras&nbsp;&nbsp;</a> </li>
-                                        <li> <a href="titulo-garboprensa">equipo&nbsp;&nbsp;</a> </li>
-                                        <li> <a href="#">menciones&nbsp;</a> </li>
-                                        <li> <a href="#">publicaciones&nbsp;</a> </li>
-                                        <li> <a href="#">archivo&nbsp;&nbsp;</a> </li>
+                                        <li> <a href="#titulo-garboprensa" class="inner-link" target="_self">equipo&nbsp;&nbsp;</a> </li>
+                                        <li> <a href="#titulo-testimonios" class="inner-link" target="_self">testimonial&nbsp;&nbsp;</a> </li>
+                                        <li> <a href="#titulo-publicaciones" class="inner-link" target="_self">publicaciones&nbsp;&nbsp;</a> </li>
+                                        <li> <a href="#titulo-archivo" class="inner-link" target="_self">archivo&nbsp;&nbsp;</a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -349,6 +349,7 @@
                         <!--end of container-->
                     </section>
                     <section class="switchable switchable--switch feature-large">
+                        <a id="fotografia" class="in-page-link"></a>
                         <div class="container">
                             <div class="row justify-content-around">
                                 <div class="col-md-6">
@@ -392,6 +393,7 @@
             <div class="main-container">
                 <a id="barcelona" class="in-page-link"></a>
                 <section class="text-center space--xxs bg--dark">
+                    <a id="fotografia" class="in-page-link"></a>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -511,7 +513,7 @@
                     </div>
                 </div>
             </section>
-            <a id="proximo" class="in-page-link"></a>
+            <a id="indistantes" class="in-page-link"></a>
             <section class="space--sm unpad--bottom switchable testimonial testimonial-1 switchable--switch">
                 <div class="container">
                     <div class="row">
@@ -520,6 +522,35 @@
                             <div class="switchable__text">
                                 <blockquote> “Indistantes una obra colaborativa realizada por vías virtuales entre los actores para mostrar otra forma de realizar encuentros en tiempos de cuarentena” </blockquote>
                                 <h5>Sebastián Bauzá</h5> <span>actor y director</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a id="titulo-garboprensa" class="in-page-link"></a>
+            <section class="text-center space--xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>equipo <b>GarboPrensa</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a id="equipo" class="in-page-link"></a>
+            <section class="text-center space--xxs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature feature-8"> <img alt="Image" src="img/paloma-garcia.jpg">
+                                <h5>Paloma García</h5> <span>Producción ejecutiva</span> </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-8"> <img alt="Image" src="img/ambar-rusi.jpg">
+                                <h5>Ambar Rusi</h5> <span>Producción periodística</span> </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-8"> <img alt="Image" src="img/belen-urrutia.jpg">
+                                <h5>Malena Urrutia</h5> <span>Redes Sociales</span> </div>
                         </div>
                     </div>
                 </div>
@@ -568,35 +599,6 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="titulo-garboprensa" class="in-page-link"></a>
-            <section class="text-center space--xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>equipo <b>GarboPrensa</b></h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="equipo" class="in-page-link"></a>
-            <section class="text-center space--xxs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="feature feature-8"> <img alt="Image" src="img/paloma-garcia.jpg">
-                                <h5>Paloma García</h5> <span>Producción ejecutiva</span> </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="feature feature-8"> <img alt="Image" src="img/ambar-rusi.jpg">
-                                <h5>Ambar Rusi</h5> <span>Producción periodística</span> </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="feature feature-8"> <img alt="Image" src="img/belen-urrutia.jpg">
-                                <h5>Malena Urrutia</h5> <span>Redes Sociales</span> </div>
                         </div>
                     </div>
                 </div>
