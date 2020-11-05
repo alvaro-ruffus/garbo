@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
@@ -15,21 +15,62 @@
     <body data-smooth-scroll-offset="77">
         <div class="nav-container"> </div>
         <div class="main-container">
+            <section class="cover text-center bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6">
+                            <h1>Streamline your workflow</h1>
+                            <p class="lead"> Build lean, beautiful websites with a clean and contemporary look to suit a range of purposes. </p>
+                            <a class="btn btn--primary type--uppercase" href="#customise-template"> <span class="btn__text">
+						Launch The Builder
+					</span> </a> <span class="block type--fine-print">or <a href="index.html">view the demos</a></span> </div>
+                        <div class="col-md-12">
+                            <div class="triptych border--round"> <img alt="Image" src="img/agency-1.jpg"> <img alt="Image" src="img/agency-2.jpg"> <img alt="Image" src="img/blog-6.jpg"> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section>
                 <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="slider slider--ken-burns" data-paging="true" data-arrows="true" data-timing="7000">
-                                <ul class="slides">
-                                    <li> <img alt="Susana Rinaldi" src="img/susana rinaldi.jpg"> </li>
-                                    <li> <img alt="Noer en Paris" src="img/caminando-paris.jpg"> </li>
-                                    <li> <img alt="Veredas de Buenos Aires" src="img/trottoirs-80.jpg"> </li>
-                                    <li> <img alt="Rodolfo Mederos" src="img/equipo-y-mederos.jpg"> </li>
-                                    <li> <img alt="Jairo" src="img/jairo.jpg"> </li>
-                                    <li> <img alt="protagonista y director" src="img/Jean Pierre Noher y Cucho Costantino 01.jpg"> </li>
-                                    <li> <img alt="Edgardo Canton" src="img/fundador.jpg"> </li>
-                                    <li> <img alt="Buscando locaciones en París" src="img/auto-paris.jpg"> </li>
-                                </ul>
+                    <div class="masonry">
+                        <div class="masonry__container row masonry--active">
+                            <div class="col-md-4 masonry__item">
+                                <div class="card card-2 text-center">
+                                    <div class="card__top">
+                                        <a href="#"> <img alt="Image" src="img/landing-8.jpg"> </a>
+                                    </div>
+                                    <div class="card__body">
+                                        <h4>Photography 101</h4> <span class="type--fade">Understanding the fundamentals</span>
+                                        <p> Construct mockups or production-ready pages in-browser with Variant Page Builder </p>
+                                    </div>
+                                    <div class="card__bottom text-center">
+                                        <div class="card__action"> <span class="h6 type--uppercase">Explore</span>
+                                            <a href="#"> <i class="material-icons">flip_to_front</i> </a>
+                                        </div>
+                                        <div class="card__action"> <span class="h6 type--uppercase">Save</span>
+                                            <a href="#"> <i class="material-icons">favorite_border</i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 masonry__item">
+                                <div class="card card-2 text-center">
+                                    <div class="card__top"> <span class="label">New</span>
+                                        <a href="#"> <img alt="Image" src="img/landing-14.jpg"> </a>
+                                    </div>
+                                    <div class="card__body">
+                                        <h4>Kiln Fired Pottery</h4> <span class="type--fade">Video Tutorial Series</span>
+                                        <p> Construct mockups or production-ready pages in-browser with Variant Page Builder </p>
+                                    </div>
+                                    <div class="card__bottom text-center">
+                                        <div class="card__action"> <span class="h6 type--uppercase">Explore</span>
+                                            <a href="#"> <i class="material-icons">flip_to_front</i> </a>
+                                        </div>
+                                        <div class="card__action"> <span class="h6 type--uppercase">Save</span>
+                                            <a href="#"> <i class="material-icons">favorite_border</i> </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,8 +78,8 @@
             </section>
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/flickity.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/isotope.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
 
