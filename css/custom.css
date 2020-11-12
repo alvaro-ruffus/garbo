@@ -2,7 +2,8 @@
 
 /* misma altura que el logo */
 .nav-container {
-  height: 71px;
+  height: 35px;
+  background-color: #252525;
 }
 
 nav.bar {
