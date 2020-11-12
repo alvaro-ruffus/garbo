@@ -1,4 +1,10 @@
 /*! Place your custom styles here */
+
+/* misma altura que el logo */
+.nav-container {
+  height: 71px;
+}
+
 nav.bar {
-    padding: 0;
+  padding: 0;
 }
